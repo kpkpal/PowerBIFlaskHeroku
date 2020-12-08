@@ -13,7 +13,7 @@ def home():
 
 @app.route("/logr")
 def logr():
-    return render_template('logr.html', title='logistic_regression')
+    return render_template('logr.html', title='Anomaly')
 
 @app.route("/contact")
 def contact():
